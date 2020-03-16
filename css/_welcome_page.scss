@@ -4,7 +4,7 @@ body.welcome-page {
 }
 
 .welcome {
-    background-image: $welcomePageBackground;
+    background: $welcomePageBackground;
     display: flex;
     flex-direction: column;
     font-family: $welcomePageFontFamily;
@@ -38,6 +38,7 @@ body.welcome-page {
 
         .header-text-title {
             color: $welcomePageTitleColor;
+            font-family: "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
             font-size: $welcomePageHeaderTextTitleFontSize;
             font-weight: $welcomePageHeaderTextTitleFontWeight;
             line-height: $welcomePageHeaderTextTitleLineHeight;
@@ -102,7 +103,7 @@ body.welcome-page {
             text-align: left;
             min-height: 354px;
             width: 710px;
-            background: #75A7E7;
+            background: #93CB6A;
             display: $welcomePageTabContainerDisplay;
             flex-direction: column;
 
